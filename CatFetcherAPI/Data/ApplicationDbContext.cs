@@ -1,4 +1,5 @@
-﻿using CatFetcherAPI.Models;
+﻿using System;
+using CatFetcherAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace CatFetcherAPI.Data
@@ -7,7 +8,7 @@ namespace CatFetcherAPI.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
         {
-        
+
         }
 
         public DbSet<CatEntity> Cats => Set<CatEntity>();

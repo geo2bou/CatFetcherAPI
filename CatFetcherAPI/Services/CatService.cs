@@ -131,5 +131,11 @@ namespace CatFetcherAPI.Services
                 .Take(pageSize)
                 .ToListAsync();
         }
+
+        public async Task AddCat(CatEntity cat)
+        {
+            _dbContext.Cats.Add(cat);
+            await _dbContext.SaveChangesAsync();
+        }
     }
 }
