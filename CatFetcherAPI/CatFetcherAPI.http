@@ -1,0 +1,6 @@
+@CatFetcherAPI_HostAddress = http://localhost:5121
+
+GET {{CatFetcherAPI_HostAddress}}/catfetcherapi/
+Accept: application/json
+
+###

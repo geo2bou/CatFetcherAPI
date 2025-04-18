@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CatFetcherAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CatFetcherAPI.Controllers.CatsController.FetchCats">
+            <summary>
+            Fetches 25 cats from external API and stores them.
+            </summary>
+        </member>
+        <member name="M:CatFetcherAPI.Controllers.CatsController.GetCatById(System.Int32)">
+            <summary>
+            Retrieve a cat by its ID.
+            </summary>
+        </member>
+        <member name="M:CatFetcherAPI.Controllers.CatsController.GetCats(System.String,System.Int32,System.Int32)">
+            <summary>
+            Retrieve cats with a specific tag with paging support
+            </summary>
+        </member>
+        <member name="T:CatFetcherAPI.Migrations.CatFetcherAPI18042025">
+            <inheritdoc />
+        </member>
+        <member name="M:CatFetcherAPI.Migrations.CatFetcherAPI18042025.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CatFetcherAPI.Migrations.CatFetcherAPI18042025.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CatFetcherAPI.Migrations.CatFetcherAPI18042025.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
