@@ -28,27 +28,28 @@ Cat Fetcher is an ASP.NET Core Web API that retrieves cat images and metadata fr
 ## Setup Instructions
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/geo2bοu/CatFetcherAPI.git
 cd CatFetcherAPI
-
+```
 ### 2. Set your Cat API Key:
-
+```bash
 "CatApi": {
   "BaseUrl": "https://api.thecatapi.com/v1",
   "ApiKey": "YOUR_API_KEY"
 }
-
+```
 ### 3. Set up the database:
-
+```bash
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=CatFetcherDb;User Id=your_id;Password=your_password;Trusted_Connection=True;TrustServerCertificate=True;"
 }
-
+```
 ### 4. Run the migrations:
-
+```bash
 dotnet ef database update
-
+```
 ### 5. Run the app:
-
+```bash
 dotnet run
+```
