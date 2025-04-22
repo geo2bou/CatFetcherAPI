@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <DocumentationFile>C:\Users\Home\source\repos\CatFetcherAPI\CatFetcherAPI\CatFetcherAPI.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net8.0\CatFetcherAPI.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
