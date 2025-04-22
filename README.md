@@ -29,7 +29,7 @@ Cat Fetcher is an ASP.NET Core Web API that retrieves cat images and metadata fr
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/geo2bοu/CatFetcherAPI.git
+git clone https://github.com/geo2bou/CatFetcherAPI.git
 cd CatFetcherAPI
 ```
 ### 2. Set your Cat API Key:
